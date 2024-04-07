@@ -1,0 +1,55 @@
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background-color: floralwhite; 
+}
+
+/* Navigation Bar */
+nav {
+    background: #f2819f; /* navigation bar color */
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 1000;
+}
+
+nav a {
+    color: floralwhite;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav a:hover {
+    background: #ff3385;
+}
+
+/* Profile Section */
+.profile {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Bio Section */
+.bio {
+    text-align: center;
+    margin-top: 20px;
+    color: #f2819f; /* text color */
+}
+
+/* Portfolio Section */
+#portfolio {
+    background: #f2819f;
+    color: floralwhite;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.portfolio-images img {
+    width: 300px;
+    margin: 10px;
+}
